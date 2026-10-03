@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ff9f43;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+header strong {
+    font-size: 17px;
+}
+
+
+/* KONTEN */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+main > p {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    line-height: 1.7;
+}
+
+
+/* MENU */
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+/* KARTU MENU */
+
+.menu button {
+    border: none;
+    background: white;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu button:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu button:first-child {
+    border-top: 6px solid #3498db;
+}
+
+.menu button:nth-child(2) {
+    border-top: 6px solid #2ecc71;
+}
+
+.menu button:nth-child(3) {
+    border-top: 6px solid #9b59b6;
+}
+
+.menu button:nth-child(4) {
+    border-top: 6px solid #e67e22;
+}
+
+.menu button h3 {
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
+
+.menu button p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    background: #222;
+    color: white;
+}
+
+
+/* TAMPILAN HP */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .menu {
+        grid-template-columns: 1fr;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
+
+}
