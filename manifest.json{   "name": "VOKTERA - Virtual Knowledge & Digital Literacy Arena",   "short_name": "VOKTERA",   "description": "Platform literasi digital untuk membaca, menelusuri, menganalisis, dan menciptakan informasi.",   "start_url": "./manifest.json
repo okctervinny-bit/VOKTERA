@@ -1,0 +1,11 @@
+{
+  "name": "VOKTERA - Virtual Knowledge & Digital Literacy Arena",
+  "short_name": "VOKTERA",
+  "description": "Platform literasi digital untuk membaca, menelusuri, menganalisis, dan menciptakan informasi.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#ff9f43",
+  "orientation": "portrait",
+  "lang": "id-ID"
+}
